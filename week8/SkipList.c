@@ -1,0 +1,252 @@
+#include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+typedef struct node
+{
+  int val;
+  struct node *up, *down, *right, *left;
+} node;
+
+node *createNode(int data)
+{
+  node *newNode = (node *)malloc(sizeof(node));
+  newNode->val = data;
+  newNode->left = newNode->right = newNode->up = newNode->down = NULL;
+  return newNode;
+}
+
+node *createSkipList()
+{
+  node *rightBound = createNode(INT_MAX);
+  node *leftBound = createNode(INT_MIN);
+  rightBound->left = leftBound;
+  leftBound->right = rightBound;
+  return leftBound;
+}
+
+node *getLevel(node *ele)
+{
+  while (ele->left)
+    ele = ele->left;
+  return ele;
+}
+
+node *getTopLevel(node *curLevel)
+{
+  while (curLevel->up)
+    curLevel = curLevel->up;
+  return curLevel;
+}
+
+void addNewLevel(node *curLevel)
+{
+  node *newLevel = createSkipList();
+  newLevel->down = curLevel;
+  curLevel->up = newLevel;
+  node *curLevelLast = curLevel;
+  while (curLevelLast->right)
+    curLevelLast = curLevelLast->right;
+  newLevel->right->down = curLevelLast;
+  curLevelLast->up = newLevel->right;
+}
+
+node *find(node *skipList, int data)
+{
+  node *level = skipList, *preTemp = NULL, *temp = NULL;
+  while (level)
+  {
+    node *temp = level;
+    while (temp)
+    {
+      int y = temp->right->val;
+      if (data == y)
+        return temp->right;
+      else if (data > y)
+        temp = temp->right;
+      else
+      {
+        preTemp = temp->right;
+        level = level->down;
+        break;
+      }
+    }
+  }
+  return preTemp;
+}
+
+node *findInSameLevel(node *curLevel, int data)
+{
+  int y = curLevel->right->val;
+  while (y < data)
+  {
+    curLevel = curLevel->right;
+    y = curLevel->right->val;
+  }
+  return curLevel->right;
+}
+
+void insertx(node **skipList, int data)
+{
+  node *found = find(*skipList, data);
+  if (found->val != data)
+  {
+    node *newNode = createNode(data);
+    node *left = found->left;
+    left->right = newNode;
+    found->left = newNode;
+    newNode->left = left;
+    newNode->right = found;
+
+    node *curLevel = getLevel(found);
+    if (!curLevel->up)
+      addNewLevel(curLevel);
+    int toss = rand() % 2;
+    while (toss)
+    {
+      curLevel = curLevel->up;
+      found = findInSameLevel(curLevel, data);
+      node *curNewNode = createNode(data);
+      left = found->left;
+      left->right = curNewNode;
+      found->left = curNewNode;
+      curNewNode->left = left;
+      curNewNode->right = found;
+      curNewNode->down = newNode;
+      newNode->up = curNewNode;
+      newNode = curNewNode;
+      if (!curLevel->up)
+        addNewLevel(curLevel);
+      toss = rand() % 2;
+    }
+    *skipList = getTopLevel(curLevel);
+  }
+}
+
+void deleteTopLevel(node **skipList)
+{
+  node *temp = *skipList;
+  *skipList = temp->down;
+  free(temp->right);
+  free(temp);
+  (*skipList)->up = (*skipList)->right->up = NULL;
+}
+
+void deletex(node **skipList, int data)
+{
+  node *found = find(*skipList, data);
+  if (found->val == data)
+  {
+    node *curLevel = getLevel(found);
+    node *nextEle;
+    while (found)
+    {
+      node *nextEle = found->down;
+      node *left = found->left;
+      node *right = found->right;
+      left->right = right;
+      right->left = left;
+      free(found);
+      found = nextEle;
+      if (left->val == INT_MIN && right->val == INT_MAX)
+        deleteTopLevel(skipList);
+    }
+    printf("%d deleted\n", data);
+  }
+  else
+    printf("Element not present\n");
+}
+
+void printSkipList(node *skipList)
+{
+  node *level = skipList;
+  while (level)
+  {
+    node *temp = level;
+    while (temp)
+    {
+      int val = temp->val;
+      if (val == INT_MIN)
+        printf("-INF  ");
+      else if (val == INT_MAX)
+        printf("INF\n");
+      else
+        printf("%d  ", val);
+      temp = temp->right;
+    }
+    level = level->down;
+  }
+}
+
+void deleteNodes(node *head)
+{
+  if (!head)
+    return;
+  deleteNodes(head->right);
+  free(head);
+}
+
+void deleteLevels(node *skipListLevel)
+{
+  if (!skipListLevel)
+    return;
+  deleteLevels(skipListLevel->down);
+  deleteNodes(skipListLevel);
+}
+
+int main()
+{
+  srand(time(NULL));
+  int data;
+  node *skipList = createSkipList();
+  printf("Initially\n");
+  printSkipList(skipList);
+  while (1)
+  {
+    int ch;
+    printf("Menu:\n");
+    printf("1. Insert\n");
+    printf("2. Delete\n");
+    printf("3. Print\n");
+    printf("4. Find\n");
+    printf("5. Exit\n");
+    printf("Enter your choice: ");
+    scanf("%d", &ch);
+    switch (ch)
+    {
+    case 1:
+      printf("Enter data: ");
+      scanf("%d", &data);
+      insertx(&skipList, data);
+      break;
+    case 2:
+      printf("Enter data to delete: ");
+      scanf("%d", &data);
+      deletex(&skipList, data);
+      break;
+    case 3:
+      printf("Skip list upto now: \n");
+      printSkipList(skipList);
+      break;
+    case 4:
+      printf("Enter the data to find: \n");
+      scanf("%d", &data);
+      node *found = find(skipList, data);
+      if (!found)
+        printf("Skip list does not exist\n");
+      else if (found->val != data)
+        printf("data does not exist\n");
+      else
+        printf("Data exist\n");
+      break;
+    case 5:
+      printf("Exiting...\n");
+      deleteLevels(skipList);
+      exit(1);
+    default:
+      printf("ERROR: Entering the choice\n");
+    }
+  }
+  return 0;
+}

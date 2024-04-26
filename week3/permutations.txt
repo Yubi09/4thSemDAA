@@ -1,0 +1,72 @@
+Permutation: 52 82 16 56 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 52 82 56 16 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 52 16 82 56 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 52 16 56 82 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 52 56 16 82 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 52 56 82 16 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 82 52 16 56 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 82 52 56 16 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 82 16 52 56 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 82 16 56 52 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 82 56 16 52 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 82 56 52 16 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 16 82 52 56 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 16 82 56 52 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 16 52 82 56 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 16 52 56 82 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 16 56 52 82 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 16 56 82 52 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 56 82 16 52 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 56 82 52 16 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 56 16 82 52 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 56 16 52 82 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 56 52 16 82 
+Sorted permutation: 16 52 56 82 
+
+Permutation: 56 52 82 16 
+Sorted permutation: 16 52 56 82 
+

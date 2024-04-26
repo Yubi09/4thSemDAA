@@ -1,0 +1,482 @@
+The array is: 24 96 76 86 38 
+
+Permutation: 24 96 76 86 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 96 76 38 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 96 86 76 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 96 86 38 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 96 38 86 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 96 38 76 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 76 96 86 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 76 96 38 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 76 86 96 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 76 86 38 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 76 38 86 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 76 38 96 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 86 76 96 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 86 76 38 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 86 96 76 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 86 96 38 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 86 38 96 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 86 38 76 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 38 76 86 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 38 76 96 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 24 38 86 76 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 38 86 96 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 38 96 86 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 24 38 96 76 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 96 24 76 86 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 96 24 76 38 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 96 24 86 76 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 24 86 38 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 24 38 86 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 96 24 38 76 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 96 76 24 86 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 76 24 38 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 76 86 24 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 96 76 86 38 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 96 76 38 86 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 76 38 24 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 86 76 24 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 5
+
+Permutation: 96 86 76 38 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 5
+
+Permutation: 96 86 24 76 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 96 86 24 38 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 96 86 38 24 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 96 86 38 76 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 96 38 76 86 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 96 38 76 24 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 96 38 86 76 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 38 86 24 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 38 24 86 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 96 38 24 76 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 96 24 86 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 96 24 38 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 96 86 24 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 76 96 86 38 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 76 96 38 86 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 96 38 24 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 24 96 86 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 76 24 96 38 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 76 24 86 96 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 76 24 86 38 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 76 24 38 86 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 24 38 96 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 86 24 96 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 86 24 38 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 86 96 24 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 76 86 96 38 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 76 86 38 96 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 86 38 24 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 76 38 24 86 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 76 38 24 96 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 76 38 86 24 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 76 38 86 96 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 76 38 96 86 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 76 38 96 24 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 86 96 76 24 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 5
+
+Permutation: 86 96 76 38 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 5
+
+Permutation: 86 96 24 76 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 86 96 24 38 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 86 96 38 24 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 86 96 38 76 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 86 76 96 24 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 86 76 96 38 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 86 76 24 96 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 76 24 38 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 76 38 24 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 76 38 96 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 24 76 96 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 86 24 76 38 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 86 24 96 76 38 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 24 96 38 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 24 38 96 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 86 24 38 76 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 86 38 76 24 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 86 38 76 96 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 86 38 24 76 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 38 24 96 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 38 96 24 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 86 38 96 76 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 96 76 86 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 96 76 24 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 96 86 76 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 96 86 24 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 96 24 86 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 96 24 76 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 76 96 86 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 76 96 24 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 76 86 96 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 76 86 24 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 76 24 86 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 38 76 24 96 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 6
+
+Permutation: 38 86 76 96 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 86 76 24 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 86 96 76 24 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 86 96 24 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 86 24 96 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 86 24 76 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 24 76 86 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 24 76 96 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 7
+
+Permutation: 38 24 86 76 96 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 24 86 96 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 24 96 86 76 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+
+Permutation: 38 24 96 76 86 
+Sorted permutation: 24 38 76 86 96 
+Number of times comparison is done: 8
+

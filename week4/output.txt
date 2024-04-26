@@ -1,0 +1,212 @@
+The array is: 81 99 86 91 
+
+Permutation: 81 99 86 91 
+Pivot: 91
+81 86 91 99 
+Pivot: 86
+81 86 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 81 99 91 86 
+Pivot: 81
+81 99 91 86 
+Pivot: 99
+86 91 99 
+Pivot: 86
+86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 81 86 99 91 
+Pivot: 86
+81 86 99 91 
+Pivot: 99
+91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 81 86 91 99 
+Pivot: 99
+81 86 91 99 
+Pivot: 86
+81 86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 5
+
+Permutation: 81 91 86 99 
+Pivot: 99
+81 91 86 99 
+Pivot: 86
+81 86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 5
+
+Permutation: 81 91 99 86 
+Pivot: 91
+81 86 91 99 
+Pivot: 86
+81 86 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 99 81 86 91 
+Pivot: 99
+91 81 86 99 
+Pivot: 81
+81 86 91 
+Pivot: 86
+86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 99 81 91 86 
+Pivot: 81
+81 86 91 99 
+Pivot: 86
+86 91 99 
+Pivot: 91
+91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 99 86 81 91 
+Pivot: 86
+81 86 99 91 
+Pivot: 91
+91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 99 86 91 81 
+Pivot: 91
+86 81 91 99 
+Pivot: 86
+81 86 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 99 91 86 81 
+Pivot: 99
+81 91 86 99 
+Pivot: 91
+81 86 91 
+Pivot: 86
+81 86 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 99 91 81 86 
+Pivot: 81
+81 91 86 99 
+Pivot: 91
+86 91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 5
+
+Permutation: 86 99 81 91 
+Pivot: 99
+86 91 81 99 
+Pivot: 81
+81 91 86 
+Pivot: 86
+86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 86 99 91 81 
+Pivot: 86
+81 86 91 99 
+Pivot: 91
+91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 86 81 99 91 
+Pivot: 86
+81 86 99 91 
+Pivot: 99
+91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 86 81 91 99 
+Pivot: 99
+86 81 91 99 
+Pivot: 91
+86 81 91 
+Pivot: 86
+81 86 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 86 91 81 99 
+Pivot: 99
+86 91 81 99 
+Pivot: 81
+81 91 86 
+Pivot: 86
+86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 86 91 99 81 
+Pivot: 91
+86 81 91 99 
+Pivot: 86
+81 86 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 4
+
+Permutation: 91 99 86 81 
+Pivot: 99
+91 81 86 99 
+Pivot: 86
+81 86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 5
+
+Permutation: 91 99 81 86 
+Pivot: 81
+81 99 86 91 
+Pivot: 91
+86 91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 5
+
+Permutation: 91 86 99 81 
+Pivot: 81
+81 86 99 91 
+Pivot: 91
+86 91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 5
+
+Permutation: 91 86 81 99 
+Pivot: 99
+91 86 81 99 
+Pivot: 81
+81 86 91 
+Pivot: 91
+86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+
+Permutation: 91 81 86 99 
+Pivot: 81
+81 99 86 91 
+Pivot: 91
+86 91 99 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 5
+
+Permutation: 91 81 99 86 
+Pivot: 81
+81 86 99 91 
+Pivot: 99
+86 91 99 
+Pivot: 91
+86 91 
+Sorted permutation: 81 86 91 99 
+Number of comparisons: 6
+

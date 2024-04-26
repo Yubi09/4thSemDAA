@@ -1,0 +1,1 @@
+printf("n = %d, m = %d\n", n, m);
